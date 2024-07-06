@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    :root{
+        --Green1:  hsl(148, 38%, 91%);
+    --Green: hsl(169, 82%, 27%);
+    --Red: hsl(0, 66%, 54%);
+    
+    --White: hsl(0, 0%, 100%);
+    --Grey1: hsl(186, 15%, 59%);
+    --Grey:  hsl(187, 24%, 22%);
+    
+    }
+
+    body{
+        background-color: var(--Green1);
+        color: var(--Grey);
+      height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .container{
+        width: 472px;
+        height: 490px; 
+        border-radius: 10px;
+     background-color: var(--White);
+    }
+    
+    .section-name-email{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .labell{
+        display: flex;
+        margin-left: 15px;
+    }
+
+
+    .inp-firstname{
+        width: 190px;
+        margin: 10px;
+    padding: 12px;
+    }
+ 
+    .inp-lastname{
+        width: 190px;
+        margin: 10px;
+        padding: 12px;
+    }
+    .div-email{
+    width: 700px;
+    }
+
+    .inp-email{
+    margin: 10px;
+        width: 425px;
+        padding: 13px;
+    }
+    
+.section-query{
+    display: flex;
+    justify-content: space-around;
+}
+
+    .inp-query{
+        display: flex;
+        align-items: center;
+        border : solid 1px;
+        border-radius: 7px;
+       
+        width: 170px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .title{
+        margin: 9px;
+        color: var(--Grey);
+    }
+  .tag-p {
+        padding-left: 13px;
+    }
+    
+    input{
+        border-radius: 7px;
+    border: solid 1px var(--Grey1);
+    }
+    .inp-massage{
+        margin: 9px;
+        width: 401px;
+        padding: 21px;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 18px;
+        justify-content: flex-end;
+    } 
+    
+    .button{
+        padding:10px;
+        background-color: rgb(23, 174, 23);
+        color: #ffffff;
+        border: none;
+        width: 443px;
+        margin: 5px;
+        border-radius: 7px;
+    }
+
+@media screen and (max-width: 375px) {
+
+    body{
+        display: block;
+    
+        background-color: var(--Green1);
+        color: var(--Grey);
+     
+    }
+    .container{
+        height: unset;
+        width: unset;
+        border-radius: 10px;
+     background-color: var(--White);
+    }
+    
+    .title{
+        margin: 9px;
+        color: var(--Grey);
+    }
+  .tag-p {
+        padding-left: 13px;
+    }
+
+   .section-name-email{
+
+   }
+    .inp-firstname{
+        padding: 17px;
+        width: 263px;
+    }
+    .inp-lastname{
+        padding: 17px;
+        width: 263px;
+    }
+    
+    .inp-email{
+        padding: 17px;
+        width: 263px;
+    }
+    
+    .section-query{
+        display: flex;
+        flex-direction: column;
+    }
+    
+        .inp-query{
+            display: flex;
+            align-items: center;
+            border : solid 1px;
+            border-radius: 7px;
+            padding: 17px;
+            width: 263px;
+            margin: 10px;
+         
+        }
+ 
+    
+
+    .inp-massage{
+        margin: 9px;
+        height: 98px;
+        width: 254px;
+    }
+    
+    .contact{
+ 
+    } 
+    
+    .button{
+        width: 311px;
+    }
+    }
+  
